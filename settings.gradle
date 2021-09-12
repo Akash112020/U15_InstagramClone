@@ -1,0 +1,13 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+
+        // Back4app , from - https://jitpack.io/#parse-community/Parse-SDK-Android , help : https://parseplatform.org/
+        maven { url 'https://jitpack.io' }
+    }
+}
+rootProject.name = "U15_InstagramClone"
+include ':app'
